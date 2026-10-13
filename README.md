@@ -18,13 +18,13 @@ Reports findings as errors, warnings, and notes with suggested fixes.
 ## Installation
 
 ```bash
-specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/refs/heads/osix-review.zip
+specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/b1f538cc02b423d27b0491642662c84680561f8e.zip
 ```
 
-The reviewed branch distribution (pin its commit when vendoring):
+The reviewed commit distribution:
 
 ```bash
-specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/refs/heads/osix-review.zip
+specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/b1f538cc02b423d27b0491642662c84680561f8e.zip
 ```
 
 ## Usage
