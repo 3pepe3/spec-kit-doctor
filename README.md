@@ -5,14 +5,12 @@ Read-only diagnostics for Spec Kit project structure, agent commands/skills, fea
 ## Installation
 
 The catalog and upstream v1.0.0 tag still contain the old implementation.
-Install this maintained compatibility branch explicitly:
+Install this reviewed fork commit:
 
 ```bash
-specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/refs/heads/fix/current-speckit-layout.zip
+specify extension add doctor --from https://github.com/3pepe3/spec-kit-doctor/archive/e22d68952b0c12d21ea4b083e4e19b48615d1ed3.zip
 ```
 
-For reproducible installations, replace the branch archive with a reviewed
-commit archive (`https://github.com/3pepe3/spec-kit-doctor/archive/<commit>.zip`).
 Use `--force` only when intentionally replacing an installation after preserving
 local customizations. Local development uses `specify extension add /path/to/checkout --dev`.
 
